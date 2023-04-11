@@ -6,6 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogos Jogados</title>
+    <link rel="stylesheet" href="estilopb.css">
+ <style>
+    .serie {
+        color: green;
+    }
+    .filme {
+        color:blue;
+    }
+    .jogo {
+        color: red;
+    }
+    p > .jogo {
+        border-bottom: dashed;
+    }
+ </style>
 </head>
 
 <body>
@@ -14,22 +29,22 @@
     <main>
         <p>Três ultimos jogos que joguei:</p>
         <ol>
-            <li>League of Legends</li>
-            <li>Chess</li>
-            <li>Hearthstone</li>
+            <li class="jogo">League of Legends</li>
+            <li class="jogo">Chess</li>
+            <li class="jogo">Hearthstone</li>
         </ol>
             <p>Filmes e Séries que assisti:</p>
         <ul>
             <li>Filmes
             <ul>
-                <li style="color:blue;">Dungeons & Dragons</li>
-                <li style="color:blue;">Panico 6</li>
+                <li class="filme">Dungeons & Dragons</li>
+                <li class="filme">Panico 6</li>
             </ul>
             </li>
             <li>Séries
                 <ul>
-                    <li style="color:green;">Atlanta</li>
-                    <li style="color:green;">The Last of Us</li>
+                    <li class="serie">Atlanta</li>
+                    <li class="serie">The Last of Us</li>
                 </ul>
                 </li>
         </ul>
